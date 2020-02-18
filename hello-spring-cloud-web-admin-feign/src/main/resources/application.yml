@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.2.129:8080/spike/spring-cloud-config.git
+      name: web-admin-feign
+      label: master
+      profile: prod
